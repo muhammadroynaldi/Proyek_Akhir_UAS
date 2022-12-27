@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1025116257837",
+    "project_id": "fireapp-9bc4d",
+    "storage_bucket": "fireapp-9bc4d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1025116257837:android:46ae105aecc42b8a02c2a4",
+        "android_client_info": {
+          "package_name": "com.roynaldi.project_uas_rentalcamera"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1025116257837-cskrkt4cieco9k0uru778t16d2k16r07.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcOvFmEZEJEFducor7t52Rr4taxnLvOms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1025116257837-cskrkt4cieco9k0uru778t16d2k16r07.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
