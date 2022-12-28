@@ -11,14 +11,37 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="184dp"
-        android:text="WelCome"
-        android:textSize="75sp"
+        android:text="WelCome\nCameraS"
         android:textColor="#ffffff"
+        android:textSize="75sp"
         android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="100dp"
+        android:text="TENTANG APLIKASI"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CameraS adalah aplikasi mobile yang dibuat untuk kemudahan menyewa kamera dengan berbagai tipe dan model. Dengan adanya CameraS anda juga bisa memilih kamera sesuai selera yang ingin anda sewa."
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
     <TextView
         android:id="@+id/textView2"
@@ -29,7 +52,6 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
